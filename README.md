@@ -17,8 +17,8 @@ Creates a new Bing Maps layer.
 ### Example
 
 ```js
-var map = L.map('map').setView([51.505, -0.09], 13)
-L.tileLayer.bing({ key: 'YOUR-BING-MAPS-KEY' }).addTo(map)
+var map = L.map('map').setView([47.614909, -122.194013], 15);
+L.TileLayer.Bing({ key: 'YOUR-BING-MAPS-KEY' }).addTo(map);
 ```
 
 ### License
