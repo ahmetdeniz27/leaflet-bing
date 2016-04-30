@@ -1,6 +1,8 @@
 # leaflet-bing
 Bing Maps Layer for leaflet v1.0. This plugin is created by following [leaflet-bing-layer](https://github.com/gmaclennan/leaflet-bing-layer) plugin. External dependency on [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is removed and plugin is made simpler to follow and understand.
 
+[Here is a link](https://github.com/mertemin/leaflet-bing-0.7) to the plugin for leaflet 0.7.
+
 ### L.TileLayer.Bing(options)
 Creates a new Bing Maps layer.
 
