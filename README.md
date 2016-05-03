@@ -1,5 +1,10 @@
 # leaflet-bing
-Bing Maps Layer for leaflet v1.0. This plugin is created by following [leaflet-bing-layer](https://github.com/gmaclennan/leaflet-bing-layer) plugin. External dependency on [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) is removed and plugin is made simpler to follow and understand.
+Bing Maps Layer for leaflet v1.0. This plugin is created by following [leaflet-bing-layer](https://github.com/gmaclennan/leaflet-bing-layer) plugin.
+
+By default this plugin doesn't work on IE. If you want it to work, then add the following to your webpage:
+```html
+<!--[if IE]--><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Promise"></script><!--[endif]-->
+```
 
 [Here is a link](https://github.com/mertemin/leaflet-bing-0.7) to the plugin for leaflet 0.7.
 
